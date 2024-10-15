@@ -1,12 +1,12 @@
 import React from "react";
-import Img from "../../assets/biryani.png";
-import Img2 from "../../assets/biryani2.png";
-import Img3 from "../../assets/biryani4.png";
+import sivler from "../../assets/big-silver.png";
+import gold from "../../assets/big-gold.png";
+import diamond from "../../assets/big-diamond2.png";
 import StarRatings from "react-star-ratings";
 const ServicesData = [
   {
     id: 1,
-    img: Img2,
+    img: sivler,
     name: "WeCare Bạc",
     price: "199.000 VND/tháng",
     description:
@@ -14,7 +14,7 @@ const ServicesData = [
   },
   {
     id: 2,
-    img: Img2,
+    img: gold,
     name: "WeCare Vàng",
     price: "349.000 VND/tháng",
     description:
@@ -22,7 +22,7 @@ const ServicesData = [
   },
   {
     id: 3,
-    img: Img2,
+    img: diamond,
     name: "WeCare Kim Cương",
     price: "499.000 VND/tháng",
     description:

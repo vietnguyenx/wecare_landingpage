@@ -1,5 +1,6 @@
 import React from "react";
-import BiryaniImg from "../../assets/biryani5.png";
+import BiryaniImg from "../../assets/logo-10.png";
+import BiryaniImg2 from "../../assets/logo-11.png";
 import Vector from "../../assets/vector.png";
 import { MdVerified, MdSupportAgent } from "react-icons/md"; // Icon 1 & 6
 import { FaHeartbeat, FaShieldAlt } from "react-icons/fa"; // Icon 2 & 5
@@ -81,7 +82,7 @@ const Banner = () => {
               {/* Image section for second description */}
               <div>
                 <img
-                  src={BiryaniImg}
+                  src={BiryaniImg2}
                   alt="biryani img"
                   className="max-w-[430px] w-full mx-auto drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)]"
                 />
