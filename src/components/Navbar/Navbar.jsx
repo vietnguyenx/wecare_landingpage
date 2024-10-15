@@ -7,7 +7,7 @@ const Menu = [
   {
     id: 1,
     name: "Trang chủ",
-    link: "/#",
+    link: "/",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const Menu = [
   {
     id: 3,
     name: "Về chúng tôi",
-    link: "/#about",
+    link: "/#banner",
   },
 ];
 
@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="container py-3 sm:py-0">
           <div className="flex justify-between items-center">
             <div>
-              <a href="#" className="font-bold text-2xl sm:text-3xl flex items-center gap-2">
+              <a href="/" className="font-bold text-2xl sm:text-3xl flex items-center gap-2">
                 <img src={Logo} alt="Logo" className="w-20" /> 
                 <span>
                   <span style={{ color: "#FF8718" }}>We</span>

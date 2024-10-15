@@ -1,7 +1,6 @@
 import React from "react";
 import {
   FaFacebook,
-  FaInstagram,
   FaTiktok,
   FaLocationArrow,
   FaMobileAlt,
@@ -32,10 +31,18 @@ const Footer = () => {
             </div>
             {/* Social Handle */}
             <div className="flex items-center gap-3 mt-6">
-              <a href="#">
+              <a
+                href="https://www.facebook.com/profile.php?id=61566267626726&mibextid=LQQJ4d"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaFacebook className="text-3xl" />
               </a>
-              <a href="#">
+              <a
+                href="https://www.tiktok.com/@wecarebusiness?_t=8qZQEqip4zM&_r=1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaTiktok className="text-3xl" />
               </a>
             </div>

@@ -16,7 +16,7 @@ const AppStore = () => {
             >
               <h1 className="text-2xl text-center sm:text-left sm:text-4xl font-semibold text-gray-700 dark:text-gray-400">
                 <span style={{ color: "#FF8718" }}>We</span>
-                <span style={{ color: "#4CAF4F" }}>Care</span> is available for Android and IOS
+                <span style={{ color: "#4CAF4F" }}>Care</span> is available for Android
               </h1>
               <div className="flex flex-wrap justify-center sm:justify-start items-center">
                 <a href="#">

@@ -1,7 +1,7 @@
 import React from "react";
-import BiryaniImg1 from "../../assets/biryani3.png";
-import BiryaniImg2 from "../../assets/biryani5.png";
-import BiryaniImg3 from "../../assets/biryani2.png";
+import BiryaniImg1 from "../../assets/food4.png";
+import BiryaniImg2 from "../../assets/food6.png";
+import BiryaniImg3 from "../../assets/food5.png";
 import Vector from "../../assets/vector3.png";
 
 const ImageList = [
@@ -59,7 +59,7 @@ const Hero = () => {
               </p>
               <div>
                 <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
-                  Tải App Ngay
+                  Tải Ứng Dụng Ngay
                 </button>
               </div>
             </div>
@@ -72,7 +72,7 @@ const Hero = () => {
                   data-aos-once="true"
                   src={imageId}
                   alt="biryani img"
-                  className="w-[300px] sm:w-[450px] sm:scale-125  mx-auto spin "
+                  className="w-[300px] sm:w-[390px] sm:scale-125  mx-auto spin "
                 />
               </div>
               <div className="flex lg:flex-col lg:top-1/2 lg:-translate-y-1/2 lg:py-2 justify-center gap-4 absolute bottom-[0px] lg:-right-10 bg-white/30 rounded-full">
