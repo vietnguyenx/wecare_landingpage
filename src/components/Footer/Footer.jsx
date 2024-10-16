@@ -15,7 +15,6 @@ const Footer = () => {
           <div className="py-8 px-4">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
               <img src={footerLogo} alt="Logo" className="max-w-[100px]" />
-              WeCare
             </h1>
             <p className="">
               Hãy tham gia cùng chúng tôi trên hành trình hướng đến sức khỏe tốt hơn!

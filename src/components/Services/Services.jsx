@@ -1,7 +1,7 @@
 import React from "react";
-import sivler from "../../assets/big-silver.png";
-import gold from "../../assets/big-gold.png";
-import diamond from "../../assets/big-diamond2.png";
+import sivler from "../../assets/wecare_bac.png";
+import gold from "../../assets/wecare_vang.png";
+import diamond from "../../assets/wecare_kc.png";
 import StarRatings from "react-star-ratings";
 const ServicesData = [
   {
@@ -50,7 +50,7 @@ const Services = () => {
                 data-aos-duration="300"
                 className="rounded-2xl bg-white dark:bg-gray-800 hover:bg-[#4CAF4F] hover:text-white relative shadow-xl duration-high group max-w-[300px]"
               >
-                <div className="h-[100px]">
+                <div className="h-[170px]">
                   <img
                     src={service.img}
                     alt=""

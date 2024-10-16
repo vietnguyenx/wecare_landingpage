@@ -2,7 +2,7 @@ import React from "react";
 import BiryaniImg1 from "../../assets/food4.png";
 import BiryaniImg2 from "../../assets/food6.png";
 import BiryaniImg3 from "../../assets/food5.png";
-import Vector from "../../assets/vector3.png";
+import Vector from "../../assets/vector-22.png";
 
 const ImageList = [
   {
@@ -47,12 +47,11 @@ const Hero = () => {
               className="flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1"
             >
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">
-                Welcome{" "}
+                Chào mừng đến với{" "}
                 <span class="bg-clip-text text-transparent bg-gradient-to-b from-primary to-secondary">
                   <span style={{ color: "#FF8718" }}>We</span>
                   <span style={{ color: "#4CAF4F" }}>Care</span>
                 </span>{" "}
-                Zone
               </h1>
               <p className="text-sm ">
               Bắt đầu hành trình nâng niu sức khoẻ từ hôm nay!

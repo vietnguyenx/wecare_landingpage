@@ -29,10 +29,8 @@ const Navbar = () => {
           <div className="flex justify-between items-center">
             <div>
               <a href="/" className="font-bold text-2xl sm:text-3xl flex items-center gap-2">
-                <img src={Logo} alt="Logo" className="w-20" /> 
+                <img src={Logo} alt="Logo" className="w-28" /> 
                 <span>
-                  <span style={{ color: "#FF8718" }}>We</span>
-                  <span style={{ color: "#4CAF4F" }}>Care</span>
                 </span> 
               </a>
             </div>

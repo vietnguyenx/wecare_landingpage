@@ -2,6 +2,7 @@ import React from "react";
 import ApkStoreImg from "../../assets/apkpure-02.png";
 import PlayStoreImg from "../../assets/play_store.png";
 import Gif from "../../assets/mobile_bike.gif";
+import WelcomePage from "../../assets/welcome_page_app.png";
 
 const AppStore = () => {
   return (
@@ -15,8 +16,9 @@ const AppStore = () => {
               className="space-y-6 max-w-xl mx-auto"
             >
               <h1 className="text-2xl text-center sm:text-left sm:text-4xl font-semibold text-gray-700 dark:text-gray-400">
-                <span style={{ color: "#FF8718" }}>We</span>
-                <span style={{ color: "#4CAF4F" }}>Care</span> is available for Android
+                Khám phá thêm nhiều tính năng của
+                <span style={{ color: "#FF8718" }}> We</span>
+                <span style={{ color: "#4CAF4F" }}>Care</span>
               </h1>
               <div className="flex flex-wrap justify-center sm:justify-start items-center">
                 <a href="#">
@@ -35,11 +37,23 @@ const AppStore = () => {
                 </a>
               </div>
             </div>
-            <div data-aos="zoom-in" data-aos-duration="300">
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="300"
+              className="flex justify-center items-center space-x-4"
+            >
+              {/* Thêm hai ảnh nằm cạnh nhau */}
+              
               <img
                 src={Gif}
                 alt="mobile bike"
-                className="w-full sm:max-w-[60%] block rounded-md mx-auto mix-blend-multiply dark:mix-blend-difference"
+                className="w-full sm:max-w-[45%] block rounded-md mix-blend-multiply dark:mix-blend-difference"
+              />
+
+              <img
+                src={WelcomePage}
+                alt="welcome page"
+                className="w-full sm:max-w-[20%] block rounded-md mix-blend-multiply dark:mix-blend-difference"
               />
             </div>
           </div>

@@ -15,13 +15,13 @@ const Banner = () => {
     height: "100%",
     width: "100%",
   };
-  
+
   return (
     <>
       <span id="banner"></span>
-      <div className="min-h-[1100px]"> {/* Tăng chiều cao tổng thể để chứa cả hai phần */}
+      <div className="min-h-[1100px]"> {/* Tăng chiều cao tổng thể để chứa cả hai phần */} 
         <div className="min-h-[550px] flex justify-center items-center py-12 sm:py-0 ">
-          <div data-aos="slide-left" data-aos-duration="300" className="container">
+          <div data-aos="slide-left" data-aos-duration="400" className="container">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {/* Image section for first description */}
               <div>
@@ -34,7 +34,8 @@ const Banner = () => {
               {/* text content section for first description */}
               <div className="flex flex-col justify-center gap-6 sm:pt-0">
                 <h1 className="text-3xl sm:text-4xl font-bold">
-                  WeCare - đồng hành cùng sức khoẻ Việt Nam
+                  <span style={{ color: "#FF8718" }}>We</span>
+                  <span style={{ color: "#4CAF4F" }}>Care</span> - đồng hành cùng sức khoẻ Việt Nam
                 </h1>
                 <p className="text-base text-gray-500 tracking-wide leading-5">
                   WeCare là nền tảng thiết kế thực đơn dinh dưỡng dành riêng cho bệnh nhân tiểu đường và bệnh gút, đồng hành cùng người tiêu dùng cải thiện sức khoẻ và cung cấp thực đơn những bữa ăn ngon, chất lượng và bổ dưỡng.
@@ -57,12 +58,13 @@ const Banner = () => {
 
         {/* Second description section */}
         <div className="min-h-[550px] flex justify-center items-center py-12 sm:py-0 ">
-          <div data-aos="slide-right" data-aos-duration="300" className="container">
+          <div data-aos="slide-right" data-aos-duration="400" className="container">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {/* text content section for second description */}
               <div className="flex flex-col justify-center gap-6 sm:pt-0">
                 <h1 className="text-3xl sm:text-4xl font-bold">
-                  WeCare - Cam kết chất lượng dinh dưỡng
+                  <span style={{ color: "#FF8718" }}>We</span>
+                  <span style={{ color: "#4CAF4F" }}>Care</span> - Cam kết chất lượng dinh dưỡng
                 </h1>
                 <p className="text-base text-gray-500 tracking-wide leading-5">
                   WeCare với mạng lưới các chuyên gia dinh dưỡng uy tín cùng hệ thống thực đơn dinh dưỡng chất lượng, sẽ mang đến cho người tiêu dùng những trải nghiệm cá nhân hoá đặc biệt.
