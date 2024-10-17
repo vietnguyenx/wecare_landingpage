@@ -47,13 +47,13 @@ const AppStore = () => {
               <img
                 src={Gif}
                 alt="mobile bike"
-                className="w-full sm:max-w-[45%] block rounded-md mix-blend-multiply dark:mix-blend-difference"
+                className="w-[45%] sm:max-w-[45%] block rounded-md mix-blend-multiply dark:mix-blend-difference"
               />
 
               <img
                 src={WelcomePage}
                 alt="welcome page"
-                className="w-full sm:max-w-[20%] block rounded-md mix-blend-multiply dark:mix-blend-difference"
+                className="w-[20%] sm:max-w-[20%] block rounded-md mix-blend-multiply dark:mix-blend-difference"
               />
             </div>
           </div>
