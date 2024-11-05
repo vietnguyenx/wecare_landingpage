@@ -1,5 +1,5 @@
 import React from "react";
-import ApkStoreImg from "../../assets/apkpure-02.png";
+import UpToDownStoreImg from "../../assets/uptodown.png";
 import PlayStoreImg from "../../assets/play_store.png";
 import Gif from "../../assets/mobile_bike.gif";
 import WelcomePage from "../../assets/welcome_page_app.png";
@@ -30,8 +30,8 @@ const AppStore = () => {
                 </a>
                 <a href="#">
                   <img
-                    src={ApkStoreImg}
-                    alt="Apk store"
+                    src={UpToDownStoreImg}
+                    alt="UpToDown store"
                     className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"
                   />
                 </a>
