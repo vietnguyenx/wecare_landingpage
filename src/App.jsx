@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Services from "./components/Services/Services.jsx";
@@ -11,7 +11,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const App = () => {
-  React.useEffect(() => {
+  useEffect(() => {
+    // Khởi động AOS
     AOS.init({
       offset: 100,
       duration: 500,
@@ -19,7 +20,10 @@ const App = () => {
       delay: 100,
     });
     AOS.refresh();
-  }, []);
+
+    // Đặt trang về đầu mỗi khi tải lại
+    window.scrollTo(0, 0);
+  }, []); // Chạy chỉ khi component được mount
 
   // Tạo ref cho phần Services, AppStore và Banner
   const servicesRef = useRef(null);
@@ -33,7 +37,6 @@ const App = () => {
       <div ref={servicesRef}>
         <Services />
       </div>
-      {/* Bọc phần Banner với ref */}
       <div ref={bannerRef}>
         <Banner />
       </div>

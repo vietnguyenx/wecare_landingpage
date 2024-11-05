@@ -28,7 +28,7 @@ const AppStore = () => {
                     className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"
                   />
                 </a>
-                <a href="#">
+                <a href="https://wecare.vi.uptodown.com/android" target="_blank" rel="noopener noreferrer">
                   <img
                     src={UpToDownStoreImg}
                     alt="UpToDown store"
